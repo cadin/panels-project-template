@@ -1,0 +1,3 @@
+[submodule "source/libraries/panels"]
+	path = source/libraries/panels
+	url = https://cadin@github.com/cadin/panels.git
