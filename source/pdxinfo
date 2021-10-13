@@ -1,0 +1,6 @@
+name=A Panels Comic
+author=A Comic Artist
+description=This is a comic made with Panels.
+bundleID=com.yourdomain.GameName
+version=1.0
+imagePath=SystemAssets/
