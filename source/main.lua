@@ -5,5 +5,21 @@ import "libraries/panels/Panels"
 import "gameCredits.lua"
 Panels.credits = gameCredits
 
+-- add data to the table in this file to create your comic
+import "myComicData.lua"
+comicData = myComicData
 
+
+-- EXAMPLES:
+-- each of these examples includes a comicData table for a different comic
+-- uncomment one (and only one) to have its data used in the `start()` command
+
+import "examples/1-simple-comic.lua"
+-- import "examples/2-animation.lua"
+-- import "examples/3-advance-by-button.lua"
+-- import "examples/4-custom-functions.lua"
+
+
+
+-- send the data table of your comic (or an example above) to the `start()` command
 Panels.start(comicData)
