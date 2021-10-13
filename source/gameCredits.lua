@@ -1,7 +1,7 @@
 -- the Credits screen is accessed from 
 -- the Playdate system menu
 
-credits = {
+gameCredits = {
 
     -- settings for your credits screen
     alignment = Panels.TextAlignment.CENTER,
