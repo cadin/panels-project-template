@@ -6,10 +6,11 @@ local layerPosition = 200
 -- render is responsible for drawing the entire panel
 local function renderPanel2(panel, offset)
 	local crankChange = playdate.getCrankChange() 
-	layerPosition = layerPosition - crankChange
+	layerPosition = layerPosition - (crankChange / 10)
 
-	-- our panel only has one layer stored in the panels.layers table
-	panels.layers[1].img:draw(200, layerPosition)
+	-- our panel only has one layer stored in the panel.layers table
+	-- panel.layers[1].img:draw(200, layerPosition)
+	playdate.graphics.drawRect(200, layerPosition, 10, 10)
 end
 
 -- advance is called every frame
@@ -35,9 +36,10 @@ comicData = {
 	{ -- sequence 1
 		title = "Ex 4: Chapter 1",
 		scrollType = Panels.ScrollType.AUTO,
-		advanceControl = Panels.Input.A,
+		
 		panels = {
 			{ -- panel 1 (normal panel)
+				advanceControl = Panels.Input.A,
 				layers = {
 					{ text = "Press A to Start...", x = 50, y = 100, 
 						effect = { type = Panels.Effect.TYPE_ON, duration = 500 }

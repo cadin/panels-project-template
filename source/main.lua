@@ -20,10 +20,10 @@ comicData = myComicData
 -- each of these examples includes a comicData table for a different comic
 -- uncomment one (and only one) to have its data used in the `start()` command
 
-import "examples/1-simple-comic.lua"
+-- import "examples/1-simple-comic.lua"
 -- import "examples/2-animation.lua"
 -- import "examples/3-advance-by-button.lua"
--- import "examples/4-custom-functions.lua"
+import "examples/4-custom-functions.lua"
 
 
 -- START:
