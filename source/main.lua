@@ -23,7 +23,13 @@ comicData = myComicData
 -- import "examples/1-simple-comic.lua"
 -- import "examples/2-animation.lua"
 -- import "examples/3-advance-by-button.lua"
-import "examples/4-custom-functions.lua"
+-- import "examples/4-custom-functions.lua"
+import "examples/comicData.lua"
+
+
+-- SETTINGS:
+-- change any settings before calling `start()`
+Panels.Settings.showMenuOnLaunch = true
 
 
 -- START:
