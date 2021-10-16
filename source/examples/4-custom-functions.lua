@@ -1,4 +1,5 @@
 -- CUSTOM BEHAVIOR FOR PANEL 2 
+local gfx <const> = playdate.graphics
 
 local maxPosition = 60
 local minPosition = -100
@@ -10,8 +11,10 @@ local function renderPanel2(panel, offset)
 	local crankChange = playdate.getCrankChange() 
 	layerPosition = layerPosition - (crankChange / 10)
 
+	-- constrain layer position
 	layerPosition = math.min(maxPosition, layerPosition)
 	layerPosition = math.max(minPosition, layerPosition)
+
 
 	-- draw all the layers in the panel
 	for index, layer in ipairs(panel.layers) do
@@ -21,6 +24,10 @@ local function renderPanel2(panel, offset)
 			layer.img:draw(layer.x, layer.y)
 		end
 	end
+
+	-- draw the text
+	gfx.drawText("*Crank it up!*", 280, 20)
+	
 end
 
 -- advance is called every frame
@@ -52,9 +59,8 @@ example4 = {
 			advanceControl = Panels.Input.A,
 			layers = {
 				{ text = "Example 4", x = 50, y = 70 },
-				{ text = "*Crank Neck Minigame*", x = 50, y = 100 },
-				{ text = "(Custom Functions)", x = 50, y = 130 },
-				{ text = "Press A to Start...", x = 50, y = 160, 
+				{ text = "Custom Functions", x = 50, y = 100 },
+				{ text = "*Press A to Start...*", x = 50, y = 130, 
 					effect = { type = Panels.Effect.TYPE_ON, duration = 500, delay = 500 }
 				}
 			}
