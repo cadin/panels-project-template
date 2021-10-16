@@ -78,7 +78,7 @@ example4 = {
 		},
 		{ -- panel 3 (normal panel)
 			layers = {
-				{ text = "*GAME OVER*", x = 50, y = 100,  
+				{ text = "Continue...", x = 50, y = 100,  
 					effect = { type = Panels.Effect.TYPE_ON, duration = 300, delay = 500  }
 				}
 			}

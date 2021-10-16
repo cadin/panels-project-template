@@ -1,7 +1,6 @@
 -- this is the data for one SEQUENCE
 example2a = { -- sequence 1
     title = "Ex 2A: Scroll Animation",
-
     axis = Panels.ScrollAxis.VERTICAL,
     panels = {
         { -- panel 1
