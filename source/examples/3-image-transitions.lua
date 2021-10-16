@@ -1,11 +1,11 @@
 
 example3a = { -- sequence 1
-    title = "Ex 3A: Advance Images by Scroll",
+    title = "Ex 3A: Image Transition by Scroll",
     panels = {
         { -- panel 1
             layers = {
                 { text = "Example 3", x = 50, y = 100 },
-                { text = "Advance Images with *A button*", x = 50, y = 130 }
+                { text = "Images transition as you scroll", x = 50, y = 130 }
             }
         },
         { -- panel 2 
@@ -41,7 +41,7 @@ example3a = { -- sequence 1
 
 
 example3b = { -- sequence 1
-    title = "Ex 3B: Advance Images by Button",
+    title = "Ex 3B: Image Transition by Button Press",
     scrollType = Panels.ScrollType.AUTO,
     advanceControl = Panels.Input.A,
     panels = {

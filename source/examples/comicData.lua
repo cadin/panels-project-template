@@ -1,6 +1,6 @@
 import "1-simple-comic.lua"
 import "2-animation.lua"
-import "3-advance-by-button.lua"
+import "3-image-transitions.lua"
 import "4-custom-functions.lua"
 
 
@@ -8,10 +8,10 @@ import "4-custom-functions.lua"
 -- imported from the individual example files
 -- you can write this all as one big table, but it gets messy...
 comicData = {
-    example1,
-    example2a,
-    example2b,
-    example3a,
-    example3b,
-    example4,
+    example1,   -- simple comic
+    example2a,  -- animation (scroll)
+    example2b,  -- animation (button)
+    example3a,  -- image transitions (scroll)
+    example3b,  -- image transitions (btton)
+    example4,   -- custom functions
 }

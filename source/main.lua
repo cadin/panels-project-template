@@ -17,8 +17,8 @@ comicData = myComicData
 
 
 -- EXAMPLES:
--- each of these examples includes a comicData table for a different comic
--- uncomment one (and only one) to have its data used in the `start()` command
+-- uncomment this file to have the example data used in the `start()` command
+-- look in the `examples` folder for the data files
 import "examples/comicData.lua"
 
 
