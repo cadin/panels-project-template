@@ -24,15 +24,15 @@ Check out the full set of documentation here:
 
 This template includes some example sequences to help you get started:
 
-1. **Simple Comic**
+1. **Simple Comic**  
     Create a series of panels with image layers with parallax scrolling.
-2. **Animation**
+2. **Animation**  
     Set a layer to animate across the screen as the panel scrolls, or when the user presses a specific button.
-3. **Image Transitions**
+3. **Image Transitions**  
     Transition between two images on the same layer based on panel scroll position, or button press.
-4. **Custom Functions**
+4. **Custom Functions**  
     Create custom render, advance, and reset functions to take over drawing and behavior of a single panel.
-5. **Audio**
+5. **Audio**  
     Play background audio for an entire sequence or a single panel. Trigger a sound effect synced with an animation.
 
 Look in the `source/examples/` folder to find data tables for each sequence.
