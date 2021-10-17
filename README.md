@@ -1,5 +1,6 @@
 # Panels Project Template
-A starter template for your Panels comic (with examples).
+A starter template for your [Panels](https://github.com/cadin/panels) comic (with examples).
+
 
 ## Setup
 This is a [Template Repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template). Click "Use this template" to create your own fresh repo with all the contents of this template.
