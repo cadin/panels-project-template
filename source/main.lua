@@ -19,7 +19,7 @@ comicData = myComicData
 -- EXAMPLES:
 -- uncomment this file to have the example data used in the `start()` command
 -- look in the `examples` folder for the data files
-import "examples/comicData.lua"
+-- import "examples/comicData.lua"
 
 
 -- SETTINGS:
