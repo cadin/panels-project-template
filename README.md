@@ -12,7 +12,7 @@ If you're not using git, you can download this code as a ZIP file. In that case 
 ## Get Started
 Edit the table in `source/myComicData.lua` to start building your comic.
 
-Edit `source/main.lua` to add [game credits](http://cadin.github.io/panels/credits-screen) or alter [Panels settings](http://cadin.github.io/panels/settings).
+Edit `source/main.lua` to add [game credits](http://cadin.github.io/panels/docs/credits-screen) or alter [Panels settings](http://cadin.github.io/panels/docs/settings).
 
 ## Documentation
 
